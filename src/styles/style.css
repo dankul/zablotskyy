@@ -14,7 +14,7 @@ h2 {
     margin: 0;
 }
 
-a {
+p a {
     text-decoration: none;
     color: #0C63CA !important;
 }
@@ -644,6 +644,8 @@ a {
 }
 
 .content--title {
+    display: block;
+    color: #fff !important;
     width: fit-content;
     padding: 15px 25px;
     background: #FC1224;
@@ -803,6 +805,264 @@ a {
     transition: .7s;
 }
 
+
+@media (max-width: 768px) {
+    .accordion--visible p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .accordion__button {
+        margin-left: 17px;
+    }
+
+    .accordion--hidden p {
+        font-size: 16px;
+    }
+}
+
+.system-consultation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+    margin-bottom: 80px;
+    overflow: hidden;
+    background: url("/themes/clinic/img/zablotskyy-consulration.png");
+}
+.system-consultation a {
+    position: relative;
+    display: block;
+    background: #fc1224;
+    border-radius: 30px;
+    border: 1px #fc1224 solid;
+    padding: 16px 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    text-decoration: unset;
+    outline: none;
+}
+@media (max-width: 860px) {
+    .system-consultation {
+        height: 420px;
+   }
+}
+
+#schedule_consultation {
+    align-items: center;
+    justify-content: center;
+    padding-right: 12px;
+    padding-left: 12px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#edit-city--wrapper {
+    position: relative;
+    padding-left: 64px;
+}
+
+#edit-city--wrapper legend {
+    position: absolute;
+    left: 0;
+    width: fit-content;
+    display: block;
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.schedule-relative {
+    position: relative;
+    max-width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+#block-webform-ua {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: #e30613;
+    border-radius: 0.3rem;
+    max-width: 100%;
+    padding-top: 44px;
+}
+
+#block-webform-ua h2 {
+    padding: 15px 30px;
+    font-size: 24px;
+    color: white;
+}
+
+#webform_submission_schedule_consultation_ua_node_113_add_form-ajax {
+    border-top: 1px solid white;
+}
+
+#block-webform-ua form {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-city--wrapper {
+    order: 1;
+}
+
+#edit-actions {
+    order: 2;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.form-item label {
+    display: block;
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form-item>input, .form-item>select {
+    border-radius: 45px;
+    padding: 15px 25px;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+.form-item .intl-tel-input {
+    margin-top: 10px;
+}
+
+.form-item .intl-tel-input input {
+    padding-left: 50px !important;
+    border-radius: 45px;
+    padding: 15px 25px;
+    min-height: 50px;
+    width: 100%;
+}
+
+.form-item .fieldset-wrapper {
+    height: 100%;
+}
+
+.form-radio {
+    min-height: unset !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 8px;
+}
+
+.js-form-item-city {
+    flex-direction: row;
+    margin-right: 16px;
+}
+
+.js-form-item-city:last-child {
+    margin-right: 0;
+}
+
+#edit-city {
+    display: flex;
+}
+
+#edit-tip {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#edit-tip div {
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 10px;
+}
+
+#edit-tip input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: unset;
+    border-radius: unset;
+    padding: unset;
+    min-height: unset;
+}
+
+.js-form-type-textarea {
+    grid-column: span 2 / span 2;
+}
+
+.js-form-type-textarea textarea {
+    width: 100%;
+    border-radius: 45px;
+    padding: 15px 25px;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+#edit-actions {
+    grid-column: span 2 / span 2;
+    display: flex;
+    justify-content: center;
+}
+
+#edit-actions input {
+    background-color: #4f5051;
+    border-color: #4f5051;
+    padding: 16px;
+    font-size: 18px;
+    line-height: 1;
+    border-radius: 45px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 49px rgb(164 76 81 / 50%);
+    position: relative;
+}
+
+#edit-actions input:hover {
+    color: #fff;
+    background-color: #3c3d3e;
+    border-color: #363737;
+}
+
+.close-modal {
+    display: flex;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border: 3px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: rotate(0);
+    transition: .8s;
+    z-index: 10;
+}
+
+.close-modal:hover {
+    transform: rotate(180deg);
+    transition: .8s;
+}
+
+.close-modal span {
+    font-size: 32px;
+    color: white;
+}
+
 .important__info {
     position: relative;
     overflow: hidden;
@@ -856,18 +1116,5 @@ a {
         width: 94px;
         height: 140px;
         margin-top: 32px;
-    }
-
-    .accordion--visible p {
-        font-weight: 500;
-        font-size: 16px;
-    }
-
-    .accordion__button {
-        margin-left: 17px;
-    }
-
-    .accordion--hidden p {
-        font-size: 16px;
     }
 }
