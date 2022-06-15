@@ -1064,6 +1064,8 @@ p a {
 }
 
 .important__info {
+    display: flex;
+    flex-direction: column;
     position: relative;
     overflow: hidden;
     background: #fff;
