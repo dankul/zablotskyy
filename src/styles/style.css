@@ -585,6 +585,10 @@ p a {
     margin-bottom: 56px;
 }
 
+.section__options p {
+    font-size: 18px;
+}
+
 .options__container {
     width: 100%;
     display: flex;
@@ -596,12 +600,13 @@ p a {
 .section__options .col--left {
     display: flex;
     justify-content: center;
+    align-items: center;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.section__options svg {
-    margin-top: 272px;
-}
+/*.section__options svg {*/
+/*    margin-top: 272px;*/
+/*}*/
 
 .options__title {
     font-weight: 700;
@@ -1092,6 +1097,7 @@ p a {
     font-size: 20px;
     line-height: 150%;
     color: #7E7F81;
+    margin-bottom: 20px;
 }
 
 .important__info img {
