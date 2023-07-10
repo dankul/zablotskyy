@@ -1,6 +1,6 @@
 import "./styles/index.scss";
 
-import "./js/script.js";
+import "./js/caries.js";
 
 function importAll(r) {
   return r.keys().map(r);
