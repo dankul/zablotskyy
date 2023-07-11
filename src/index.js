@@ -1,5 +1,6 @@
 import "./styles/index.scss";
 
+import "./js/main.js";
 import "./js/caries.js";
 
 function importAll(r) {

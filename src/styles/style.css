@@ -711,6 +711,14 @@ p a {
     }
 }
 
+.font-normal p {
+    font-weight: normal !important;
+}
+
+.font-normal b {
+    font-weight: 700 !important;
+}
+
 .section__important .col--right {
     border-top: 1px solid #FC1224;
     padding-top: 32px;
@@ -746,6 +754,7 @@ p a {
     font-size: 18px;
     line-height: 150%;
     color: #000000;
+    margin-right: 72px;
 }
 
 .accordion__button {
@@ -795,9 +804,22 @@ p a {
     margin-bottom: 16px;
 }
 
+.accordion--hidden p b, .accordion--hidden p strong {
+    color: #7E7F81;
+}
+
 .active .accordion--hidden {
     max-height: 2000px;
     transition: .7s;
+}
+
+.accordion--hidden ul {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7E7F81;
+    margin-top: -18px;
+    margin-bottom: -6px;
 }
 
 .active .accordion__button {

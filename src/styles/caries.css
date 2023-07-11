@@ -292,6 +292,7 @@ strong, b {
     right: 0;
     top: 0;
     width: 40%;
+    height: 100%;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
   }
